@@ -27,7 +27,7 @@ int main()
   cin >> lowerBound;
 
   // Calculating the range between the upper and lower bounds
-  range = (upperBound - lowerBound);
+  range = upperBound - lowerBound + 1;
 
   // Outputting the random number series
   cout << "Five random numbers within the range ";
